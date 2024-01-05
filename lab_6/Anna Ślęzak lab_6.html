@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>b8f94bd02ac349aeabc7426750a273cb</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="adzd-lab6---spark-mllib" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;a8eb52d9-4f85-432f-b762-79e487cd0f4a&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h1>ADZD Lab6 - Spark MLlib</h1>
+</section>
+<section id="setup" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;3c5f00eb-2564-4a20-bcf4-2442a518b81d&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h2>Setup</h2>
+</section>
+<div class="cell code" data-execution_count="1"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:28:45.023002Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:28:43.257745Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;23551d31-48dc-4611-9e97-18440cd681b3&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> functions <span class="im">as</span> F</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession.builder.getOrCreate()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:28:45.364398Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:28:45.025765Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;d1eb6827-6c79-4f43-a097-59c001f8a7b6&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>spark</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+
+            <div>
+                <p><b>SparkSession - in-memory</b></p>
+                
+        <div>
+            <p><b>SparkContext</b></p>
+
+            <p><a href="http://30f5592d4d08:4040">Spark UI</a></p>
+
+            <dl>
+              <dt>Version</dt>
+                <dd><code>v3.5.0</code></dd>
+              <dt>Master</dt>
+                <dd><code>local[*]</code></dd>
+              <dt>AppName</dt>
+                <dd><code>pyspark-shell</code></dd>
+            </dl>
+        </div>
+        
+            </div>
+        
+</div>
+</div>
+<section id="1-statistics-1p" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;f6b8151f-140b-4c70-bbae-f789ad2b377d&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h2>1. Statistics (1p.)</h2>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;82e4dbc5-7514-4efe-ae30-43c1fce4c6f0&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Download the following dataset: <a
+href="https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs"
+class="uri">https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs</a></p>
+</div>
+<section id="exercise-1a" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;61513d21-7ead-4834-83c1-1782f247c1d5&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h4>Exercise 1.A</h4>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;4254e661-79a4-4fc5-9137-5e2d6737e3bc&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Show the first 10 rows of the dataset. What columns and what kind of
+data they contain? Hint: use show() method</p>
+</div>
+<div class="cell code" data-execution_count="87"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:28:54.845614Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:28:54.838999Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;fddff366-c349-4f95-a818-787ea48869e4&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>file_location <span class="op">=</span> <span class="st">&quot;spotify_songs.csv&quot;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>file_type <span class="op">=</span> <span class="st">&quot;csv&quot;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>infer_schema <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>first_row_is_header <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>delimiter <span class="op">=</span> <span class="st">&quot;,&quot;</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> spark.read.<span class="bu">format</span>(file_type) <span class="op">\</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;inferSchema&quot;</span>, infer_schema) <span class="op">\</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;header&quot;</span>, first_row_is_header) <span class="op">\</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;sep&quot;</span>, delimiter) <span class="op">\</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  .load(file_location)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="5"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;19e87424-ce1e-4db2-a5d8-5cc9727b331d&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.toPandas().head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>track_id</th>
+      <th>track_name</th>
+      <th>track_artist</th>
+      <th>track_popularity</th>
+      <th>track_album_id</th>
+      <th>track_album_name</th>
+      <th>track_album_release_date</th>
+      <th>playlist_name</th>
+      <th>playlist_id</th>
+      <th>playlist_genre</th>
+      <th>...</th>
+      <th>key</th>
+      <th>loudness</th>
+      <th>mode</th>
+      <th>speechiness</th>
+      <th>acousticness</th>
+      <th>instrumentalness</th>
+      <th>liveness</th>
+      <th>valence</th>
+      <th>tempo</th>
+      <th>duration_ms</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>6f807x0ima9a1j3VPbc7VN</td>
+      <td>I Don't Care (with Justin Bieber) - Loud Luxur...</td>
+      <td>Ed Sheeran</td>
+      <td>66</td>
+      <td>2oCs0DGTsRO98Gh5ZSl2Cx</td>
+      <td>I Don't Care (with Justin Bieber) [Loud Luxury...</td>
+      <td>2019-06-14</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>6</td>
+      <td>-2.634</td>
+      <td>1</td>
+      <td>0.0583</td>
+      <td>0.1020</td>
+      <td>0.000000</td>
+      <td>0.0653</td>
+      <td>0.518</td>
+      <td>122.036</td>
+      <td>194754.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0r7CVbZTWZgbTCYdfa2P31</td>
+      <td>Memories - Dillon Francis Remix</td>
+      <td>Maroon 5</td>
+      <td>67</td>
+      <td>63rPSO264uRjW1X5E6cWv6</td>
+      <td>Memories (Dillon Francis Remix)</td>
+      <td>2019-12-13</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>11</td>
+      <td>-4.969</td>
+      <td>1</td>
+      <td>0.0373</td>
+      <td>0.0724</td>
+      <td>0.004210</td>
+      <td>0.3570</td>
+      <td>0.693</td>
+      <td>99.972</td>
+      <td>162600.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1z1Hg7Vb0AhHDiEmnDE79l</td>
+      <td>All the Time - Don Diablo Remix</td>
+      <td>Zara Larsson</td>
+      <td>70</td>
+      <td>1HoSmj2eLcsrR0vE9gThr4</td>
+      <td>All the Time (Don Diablo Remix)</td>
+      <td>2019-07-05</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>1</td>
+      <td>-3.432</td>
+      <td>0</td>
+      <td>0.0742</td>
+      <td>0.0794</td>
+      <td>0.000023</td>
+      <td>0.1100</td>
+      <td>0.613</td>
+      <td>124.008</td>
+      <td>176616.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>75FpbthrwQmzHlBJLuGdC7</td>
+      <td>Call You Mine - Keanu Silva Remix</td>
+      <td>The Chainsmokers</td>
+      <td>60</td>
+      <td>1nqYsOef1yKKuGOVchbsk6</td>
+      <td>Call You Mine - The Remixes</td>
+      <td>2019-07-19</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>7</td>
+      <td>-3.778</td>
+      <td>1</td>
+      <td>0.1020</td>
+      <td>0.0287</td>
+      <td>0.000009</td>
+      <td>0.2040</td>
+      <td>0.277</td>
+      <td>121.956</td>
+      <td>169093.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1e8PAfcKUYoKkxPhrHqw4x</td>
+      <td>Someone You Loved - Future Humans Remix</td>
+      <td>Lewis Capaldi</td>
+      <td>69</td>
+      <td>7m7vv9wlQ4i0LFuJiE2zsQ</td>
+      <td>Someone You Loved (Future Humans Remix)</td>
+      <td>2019-03-05</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>1</td>
+      <td>-4.672</td>
+      <td>1</td>
+      <td>0.0359</td>
+      <td>0.0803</td>
+      <td>0.000000</td>
+      <td>0.0833</td>
+      <td>0.725</td>
+      <td>123.976</td>
+      <td>189052.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>7fvUMiyapMsRRxr07cU8Ef</td>
+      <td>Beautiful People (feat. Khalid) - Jack Wins Remix</td>
+      <td>Ed Sheeran</td>
+      <td>67</td>
+      <td>2yiy9cd2QktrNvWC2EUi0k</td>
+      <td>Beautiful People (feat. Khalid) [Jack Wins Remix]</td>
+      <td>2019-07-11</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>8</td>
+      <td>-5.385</td>
+      <td>1</td>
+      <td>0.1270</td>
+      <td>0.0799</td>
+      <td>0.000000</td>
+      <td>0.1430</td>
+      <td>0.585</td>
+      <td>124.982</td>
+      <td>163049.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2OAylPUDDfwRGfe0lYqlCQ</td>
+      <td>Never Really Over - R3HAB Remix</td>
+      <td>Katy Perry</td>
+      <td>62</td>
+      <td>7INHYSeusaFlyrHSNxm8qH</td>
+      <td>Never Really Over (R3HAB Remix)</td>
+      <td>2019-07-26</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>5</td>
+      <td>-4.788</td>
+      <td>0</td>
+      <td>0.0623</td>
+      <td>0.1870</td>
+      <td>0.000000</td>
+      <td>0.1760</td>
+      <td>0.152</td>
+      <td>112.648</td>
+      <td>187675.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>6b1RNvAcJjQH73eZO4BLAB</td>
+      <td>Post Malone (feat. RANI) - GATTÜSO Remix</td>
+      <td>Sam Feldt</td>
+      <td>69</td>
+      <td>6703SRPsLkS4bPtMFFJes1</td>
+      <td>Post Malone (feat. RANI) [GATTÜSO Remix]</td>
+      <td>2019-08-29</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>4</td>
+      <td>-2.419</td>
+      <td>0</td>
+      <td>0.0434</td>
+      <td>0.0335</td>
+      <td>0.000005</td>
+      <td>0.1110</td>
+      <td>0.367</td>
+      <td>127.936</td>
+      <td>207619.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>7bF6tCO3gFb8INrEDcjNT5</td>
+      <td>Tough Love - Tiësto Remix / Radio Edit</td>
+      <td>Avicii</td>
+      <td>68</td>
+      <td>7CvAfGvq4RlIwEbT9o8Iav</td>
+      <td>Tough Love (Tiësto Remix)</td>
+      <td>2019-06-14</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>8</td>
+      <td>-3.562</td>
+      <td>1</td>
+      <td>0.0565</td>
+      <td>0.0249</td>
+      <td>0.000004</td>
+      <td>0.6370</td>
+      <td>0.366</td>
+      <td>127.015</td>
+      <td>193187.0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1IXGILkPm0tOCNeq00kCPa</td>
+      <td>If I Can't Have You - Gryffin Remix</td>
+      <td>Shawn Mendes</td>
+      <td>67</td>
+      <td>4QxzbfSsVryEQwvPFEV5Iu</td>
+      <td>If I Can't Have You (Gryffin Remix)</td>
+      <td>2019-06-20</td>
+      <td>Pop Remix</td>
+      <td>37i9dQZF1DXcZDD7cfEKhW</td>
+      <td>pop</td>
+      <td>...</td>
+      <td>2</td>
+      <td>-4.552</td>
+      <td>1</td>
+      <td>0.0320</td>
+      <td>0.0567</td>
+      <td>0.000000</td>
+      <td>0.0919</td>
+      <td>0.590</td>
+      <td>124.957</td>
+      <td>253040.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>10 rows × 23 columns</p>
+</div>
+</div>
+</div>
+<section id="descriptive-statistics" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;07ea9a41-490a-42dc-ac79-956895ab2741&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h3>Descriptive statistics</h3>
+</section>
+<section id="exercise-1b" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;f3f99a79-53f4-4fc6-b188-07bcb82daebd&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h4>Exercise 1.B</h4>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;3d09afeb-4121-4dc8-95e8-6fd3926dd6ac&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Calculate descriptive statistics for 'track_popularity' and
+'duration_ms' (see <a
+href="https://spark.apache.org/docs/1.6.1/api/java/org/apache/spark/sql/DataFrame.html#describe(scala.collection.Seq"
+class="uri">https://spark.apache.org/docs/1.6.1/api/java/org/apache/spark/sql/DataFrame.html#describe(scala.collection.Seq</a>))</p>
+</div>
+<div class="cell code" data-execution_count="6"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:29:00.440477Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:29:00.434884Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;34519038-51a8-4189-83c2-fe2b5be8c444&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df.describe(<span class="st">&#39;track_popularity&#39;</span>, <span class="st">&#39;duration_ms&#39;</span>).show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+-------+------------------+------------------+
+|summary|  track_popularity|       duration_ms|
++-------+------------------+------------------+
+|  count|             32833|             32833|
+|   mean|42.477080985593766|225681.46748989128|
+| stddev|24.984074486186927|  59936.5636225785|
+|    min|                 0|            0.0116|
+|    max|               100|          517810.0|
++-------+------------------+------------------+
+
+</code></pre>
+</div>
+</div>
+<section id="exercise-1c" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;341b7307-a7df-4736-b92e-09af98f03170&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h4>Exercise 1.C</h4>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;db6f4aaa-a557-48b7-8ac9-26297d9e782f&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Check if 'track_popularity' and 'duration_ms' have normal
+distribution (see <a
+href="http://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/stat/KolmogorovSmirnovTest.html"
+class="uri">http://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/stat/KolmogorovSmirnovTest.html</a>).</p>
+</div>
+<div class="cell code" data-execution_count="7"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:29:06.623349Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:29:06.617524Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;648e89e6-a38d-4500-937e-4629ce68b2c5&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.stat <span class="im">import</span> Correlation, KolmogorovSmirnovTest</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.withColumn(<span class="st">&quot;track_popularity&quot;</span>, F.col(<span class="st">&quot;track_popularity&quot;</span>).cast(<span class="st">&quot;double&quot;</span>))<span class="op">\</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>          .withColumn(<span class="st">&quot;duration_ms&quot;</span>, F.col(<span class="st">&quot;duration_ms&quot;</span>).cast(<span class="st">&quot;double&quot;</span>))</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>KolmogorovSmirnovTest.test(df, <span class="st">&#39;track_popularity&#39;</span>, <span class="st">&#39;norm&#39;</span>, <span class="fl">42.47</span>, math.<span class="bu">pow</span>(<span class="fl">24.98</span>, <span class="dv">2</span>)).first()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>Row(pValue=3.608127130405592e-10, statistic=0.4728685961004639)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="8"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;ffadc4b8-490f-4b5d-b34e-fc8b938cb7a0&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>KolmogorovSmirnovTest.test(df, <span class="st">&#39;duration_ms&#39;</span>, <span class="st">&#39;norm&#39;</span>, <span class="fl">225681.46</span>, math.<span class="bu">pow</span>(<span class="fl">59936.56</span>, <span class="dv">2</span>)).first()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>Row(pValue=3.453418662147101e-10, statistic=0.4999749376206599)</code></pre>
+</div>
+</div>
+<section id="exercise-1d" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;2e64eb09-8471-41b8-ae13-401aee86cfc5&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h4>Exercise 1.D</h4>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;328f4e19-e325-4c11-b9cf-0bd29d719fd6&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Create correlation matrix between numeric values in the dataset.
+Which correlation is the strongest? Use the following, preprocessing
+function.</p>
+</div>
+<div class="cell code" data-execution_count="9"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:29:10.504366Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:29:10.497318Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;43e9a0f8-935a-4d12-a6bb-d47c0be6be2f&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_dataset(dataset):</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (dataset</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>                .drop(<span class="st">&quot;track_id&quot;</span>, <span class="st">&quot;track_name&quot;</span>, <span class="st">&quot;track_artist&quot;</span>, <span class="st">&quot;track_album_id&quot;</span>, <span class="st">&quot;track_album_name&quot;</span>, <span class="st">&quot;track_album_release_date&quot;</span>, <span class="st">&quot;playlist_name&quot;</span>, <span class="st">&quot;playlist_id&quot;</span>, <span class="st">&quot;playlist_genre&quot;</span>, <span class="st">&quot;playlist_subgenre&quot;</span>, <span class="st">&quot;key&quot;</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;danceability&quot;</span>, F.col(<span class="st">&quot;danceability&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;energy&quot;</span>, F.col(<span class="st">&quot;energy&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;mode&quot;</span>, F.col(<span class="st">&quot;mode&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;loudness&quot;</span>, F.col(<span class="st">&quot;loudness&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;speechiness&quot;</span>, F.col(<span class="st">&quot;speechiness&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;acousticness&quot;</span>, F.col(<span class="st">&quot;acousticness&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;liveness&quot;</span>, F.col(<span class="st">&quot;liveness&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;valence&quot;</span>, F.col(<span class="st">&quot;valence&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;tempo&quot;</span>, F.col(<span class="st">&quot;tempo&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;duration_ms&quot;</span>, F.col(<span class="st">&quot;duration_ms&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>                .withColumn(<span class="st">&quot;instrumentalness&quot;</span>, F.col(<span class="st">&quot;instrumentalness&quot;</span>).cast(<span class="st">&#39;double&#39;</span>))</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>            )</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="10"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:29:11.042261Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:29:11.033797Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;b4fb02d5-886e-40ef-9292-ba074ae99d09&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>new_df <span class="op">=</span> preprocess_dataset(df)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>new_df.show(<span class="dv">3</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+----------------+------------+------+--------+----+-----------+------------+----------------+--------+-------+-------+-----------+
+|track_popularity|danceability|energy|loudness|mode|speechiness|acousticness|instrumentalness|liveness|valence|  tempo|duration_ms|
++----------------+------------+------+--------+----+-----------+------------+----------------+--------+-------+-------+-----------+
+|            66.0|       0.748| 0.916|  -2.634| 1.0|     0.0583|       0.102|             0.0|  0.0653|  0.518|122.036|   194754.0|
+|            67.0|       0.726| 0.815|  -4.969| 1.0|     0.0373|      0.0724|         0.00421|   0.357|  0.693| 99.972|   162600.0|
+|            70.0|       0.675| 0.931|  -3.432| 0.0|     0.0742|      0.0794|         2.33E-5|    0.11|  0.613|124.008|   176616.0|
++----------------+------------+------+--------+----+-----------+------------+----------------+--------+-------+-------+-----------+
+only showing top 3 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="43"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;57c09c4c-2376-4034-8e54-eff2f62e26de&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.stat <span class="im">import</span> Correlation</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.feature <span class="im">import</span> VectorAssembler, QuantileDiscretizer</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>vector_col <span class="op">=</span> <span class="st">&#39;corr_features&#39;</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>assembler <span class="op">=</span> VectorAssembler(inputCols<span class="op">=</span>new_df.columns, outputCol<span class="op">=</span>vector_col, handleInvalid<span class="op">=</span><span class="st">&quot;skip&quot;</span>)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>df_vector <span class="op">=</span> assembler.transform(new_df).select(vector_col)</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>numeric_variables <span class="op">=</span> new_df.columns</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>matrix <span class="op">=</span> Correlation.corr(df_vector, vector_col).collect()[<span class="dv">0</span>][<span class="dv">0</span>] </span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>corr_matrix <span class="op">=</span> matrix.toArray().tolist() </span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>corr_matrix_df <span class="op">=</span> pd.DataFrame(data<span class="op">=</span>corr_matrix, columns <span class="op">=</span> numeric_variables, index<span class="op">=</span>numeric_variables) </span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>corr_matrix_df.style.background_gradient(cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="43">
+<style type="text/css">
+#T_c7019_row0_col0, #T_c7019_row1_col1, #T_c7019_row2_col2, #T_c7019_row3_col3, #T_c7019_row4_col4, #T_c7019_row5_col5, #T_c7019_row6_col6, #T_c7019_row7_col7, #T_c7019_row8_col8, #T_c7019_row9_col9, #T_c7019_row10_col10, #T_c7019_row11_col11 {
+  background-color: #b40426;
+  color: #f1f1f1;
+}
+#T_c7019_row0_col1 {
+  background-color: #7ea1fa;
+  color: #f1f1f1;
+}
+#T_c7019_row0_col2, #T_c7019_row2_col9, #T_c7019_row10_col6 {
+  background-color: #97b8ff;
+  color: #000000;
+}
+#T_c7019_row0_col3, #T_c7019_row9_col3 {
+  background-color: #a1c0ff;
+  color: #000000;
+}
+#T_c7019_row0_col4, #T_c7019_row6_col4 {
+  background-color: #4f69d9;
+  color: #f1f1f1;
+}
+#T_c7019_row0_col5 {
+  background-color: #5977e3;
+  color: #f1f1f1;
+}
+#T_c7019_row0_col6 {
+  background-color: #c1d4f4;
+  color: #000000;
+}
+#T_c7019_row0_col7, #T_c7019_row3_col7 {
+  background-color: #4055c8;
+  color: #f1f1f1;
+}
+#T_c7019_row0_col8, #T_c7019_row5_col7, #T_c7019_row6_col10, #T_c7019_row9_col4 {
+  background-color: #4c66d6;
+  color: #f1f1f1;
+}
+#T_c7019_row0_col9, #T_c7019_row2_col7, #T_c7019_row3_col1, #T_c7019_row3_col8 {
+  background-color: #7396f5;
+  color: #f1f1f1;
+}
+#T_c7019_row0_col10, #T_c7019_row4_col9, #T_c7019_row7_col1, #T_c7019_row9_col5 {
+  background-color: #6a8bef;
+  color: #f1f1f1;
+}
+#T_c7019_row0_col11, #T_c7019_row1_col8, #T_c7019_row1_col10, #T_c7019_row2_col6, #T_c7019_row5_col4, #T_c7019_row6_col2, #T_c7019_row6_col3, #T_c7019_row7_col0, #T_c7019_row7_col5, #T_c7019_row7_col9, #T_c7019_row9_col7, #T_c7019_row10_col1 {
+  background-color: #3b4cc0;
+  color: #f1f1f1;
+}
+#T_c7019_row1_col0 {
+  background-color: #7699f6;
+  color: #f1f1f1;
+}
+#T_c7019_row1_col2 {
+  background-color: #9dbdff;
+  color: #000000;
+}
+#T_c7019_row1_col3, #T_c7019_row2_col10 {
+  background-color: #98b9ff;
+  color: #000000;
+}
+#T_c7019_row1_col4, #T_c7019_row11_col0 {
+  background-color: #3c4ec2;
+  color: #f1f1f1;
+}
+#T_c7019_row1_col5 {
+  background-color: #90b2fe;
+  color: #000000;
+}
+#T_c7019_row1_col6, #T_c7019_row10_col3 {
+  background-color: #aac7fd;
+  color: #000000;
+}
+#T_c7019_row1_col7, #T_c7019_row4_col7, #T_c7019_row6_col7, #T_c7019_row8_col5 {
+  background-color: #6788ee;
+  color: #f1f1f1;
+}
+#T_c7019_row1_col9 {
+  background-color: #cad8ef;
+  color: #000000;
+}
+#T_c7019_row1_col11, #T_c7019_row3_col4, #T_c7019_row6_col8 {
+  background-color: #465ecf;
+  color: #f1f1f1;
+}
+#T_c7019_row2_col0 {
+  background-color: #445acc;
+  color: #f1f1f1;
+}
+#T_c7019_row2_col1, #T_c7019_row8_col0 {
+  background-color: #5470de;
+  color: #f1f1f1;
+}
+#T_c7019_row2_col3 {
+  background-color: #f39475;
+  color: #000000;
+}
+#T_c7019_row2_col4, #T_c7019_row8_col4 {
+  background-color: #4b64d5;
+  color: #f1f1f1;
+}
+#T_c7019_row2_col5 {
+  background-color: #4e68d8;
+  color: #f1f1f1;
+}
+#T_c7019_row2_col8, #T_c7019_row4_col3 {
+  background-color: #8db0fe;
+  color: #000000;
+}
+#T_c7019_row2_col11, #T_c7019_row4_col0, #T_c7019_row4_col11 {
+  background-color: #6687ed;
+  color: #f1f1f1;
+}
+#T_c7019_row3_col0, #T_c7019_row7_col11, #T_c7019_row11_col3 {
+  background-color: #7597f6;
+  color: #f1f1f1;
+}
+#T_c7019_row3_col2 {
+  background-color: #ef886b;
+  color: #f1f1f1;
+}
+#T_c7019_row3_col5, #T_c7019_row4_col8, #T_c7019_row7_col8 {
+  background-color: #5a78e4;
+  color: #f1f1f1;
+}
+#T_c7019_row3_col6, #T_c7019_row11_col8 {
+  background-color: #5e7de7;
+  color: #f1f1f1;
+}
+#T_c7019_row3_col9, #T_c7019_row5_col10 {
+  background-color: #799cf8;
+  color: #f1f1f1;
+}
+#T_c7019_row3_col10 {
+  background-color: #88abfd;
+  color: #000000;
+}
+#T_c7019_row3_col11 {
+  background-color: #4257c9;
+  color: #f1f1f1;
+}
+#T_c7019_row4_col1 {
+  background-color: #5b7ae5;
+  color: #f1f1f1;
+}
+#T_c7019_row4_col2, #T_c7019_row7_col6 {
+  background-color: #aec9fc;
+  color: #000000;
+}
+#T_c7019_row4_col5 {
+  background-color: #455cce;
+  color: #f1f1f1;
+}
+#T_c7019_row4_col6 {
+  background-color: #b2ccfb;
+  color: #000000;
+}
+#T_c7019_row4_col10 {
+  background-color: #6f92f3;
+  color: #f1f1f1;
+}
+#T_c7019_row5_col0, #T_c7019_row6_col1, #T_c7019_row6_col9, #T_c7019_row9_col10, #T_c7019_row10_col5 {
+  background-color: #6485ec;
+  color: #f1f1f1;
+}
+#T_c7019_row5_col1 {
+  background-color: #a2c1ff;
+  color: #000000;
+}
+#T_c7019_row5_col2 {
+  background-color: #a9c6fd;
+  color: #000000;
+}
+#T_c7019_row5_col3 {
+  background-color: #94b6ff;
+  color: #000000;
+}
+#T_c7019_row5_col6 {
+  background-color: #b6cefa;
+  color: #000000;
+}
+#T_c7019_row5_col8, #T_c7019_row7_col3, #T_c7019_row9_col0 {
+  background-color: #6c8ff1;
+  color: #f1f1f1;
+}
+#T_c7019_row5_col9, #T_c7019_row6_col0 {
+  background-color: #7da0f9;
+  color: #f1f1f1;
+}
+#T_c7019_row5_col11 {
+  background-color: #4961d2;
+  color: #f1f1f1;
+}
+#T_c7019_row6_col5 {
+  background-color: #5f7fe8;
+  color: #f1f1f1;
+}
+#T_c7019_row6_col11, #T_c7019_row7_col4, #T_c7019_row8_col1 {
+  background-color: #4a63d3;
+  color: #f1f1f1;
+}
+#T_c7019_row7_col2 {
+  background-color: #b7cff9;
+  color: #000000;
+}
+#T_c7019_row7_col10, #T_c7019_row8_col10 {
+  background-color: #7295f4;
+  color: #f1f1f1;
+}
+#T_c7019_row8_col2 {
+  background-color: #d1dae9;
+  color: #000000;
+}
+#T_c7019_row8_col3 {
+  background-color: #a6c4fe;
+  color: #000000;
+}
+#T_c7019_row8_col6, #T_c7019_row11_col6 {
+  background-color: #9ebeff;
+  color: #000000;
+}
+#T_c7019_row8_col7 {
+  background-color: #688aef;
+  color: #f1f1f1;
+}
+#T_c7019_row8_col9, #T_c7019_row8_col11, #T_c7019_row10_col8 {
+  background-color: #6384eb;
+  color: #f1f1f1;
+}
+#T_c7019_row9_col1 {
+  background-color: #cbd8ee;
+  color: #000000;
+}
+#T_c7019_row9_col2, #T_c7019_row10_col2 {
+  background-color: #cedaeb;
+  color: #000000;
+}
+#T_c7019_row9_col6 {
+  background-color: #abc8fd;
+  color: #000000;
+}
+#T_c7019_row9_col8 {
+  background-color: #5673e0;
+  color: #f1f1f1;
+}
+#T_c7019_row9_col11 {
+  background-color: #5875e1;
+  color: #f1f1f1;
+}
+#T_c7019_row10_col0, #T_c7019_row10_col9 {
+  background-color: #6282ea;
+  color: #f1f1f1;
+}
+#T_c7019_row10_col4, #T_c7019_row11_col1 {
+  background-color: #506bda;
+  color: #f1f1f1;
+}
+#T_c7019_row10_col7 {
+  background-color: #7093f3;
+  color: #f1f1f1;
+}
+#T_c7019_row10_col11, #T_c7019_row11_col9 {
+  background-color: #6180e9;
+  color: #f1f1f1;
+}
+#T_c7019_row11_col2 {
+  background-color: #b3cdfb;
+  color: #000000;
+}
+#T_c7019_row11_col4 {
+  background-color: #516ddb;
+  color: #f1f1f1;
+}
+#T_c7019_row11_col5 {
+  background-color: #3e51c5;
+  color: #f1f1f1;
+}
+#T_c7019_row11_col7 {
+  background-color: #7b9ff9;
+  color: #f1f1f1;
+}
+#T_c7019_row11_col10 {
+  background-color: #6b8df0;
+  color: #f1f1f1;
+}
+</style>
+<table id="T_c7019">
+  <thead>
+    <tr>
+      <th class="blank level0" >&nbsp;</th>
+      <th id="T_c7019_level0_col0" class="col_heading level0 col0" >track_popularity</th>
+      <th id="T_c7019_level0_col1" class="col_heading level0 col1" >danceability</th>
+      <th id="T_c7019_level0_col2" class="col_heading level0 col2" >energy</th>
+      <th id="T_c7019_level0_col3" class="col_heading level0 col3" >loudness</th>
+      <th id="T_c7019_level0_col4" class="col_heading level0 col4" >mode</th>
+      <th id="T_c7019_level0_col5" class="col_heading level0 col5" >speechiness</th>
+      <th id="T_c7019_level0_col6" class="col_heading level0 col6" >acousticness</th>
+      <th id="T_c7019_level0_col7" class="col_heading level0 col7" >instrumentalness</th>
+      <th id="T_c7019_level0_col8" class="col_heading level0 col8" >liveness</th>
+      <th id="T_c7019_level0_col9" class="col_heading level0 col9" >valence</th>
+      <th id="T_c7019_level0_col10" class="col_heading level0 col10" >tempo</th>
+      <th id="T_c7019_level0_col11" class="col_heading level0 col11" >duration_ms</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="T_c7019_level0_row0" class="row_heading level0 row0" >track_popularity</th>
+      <td id="T_c7019_row0_col0" class="data row0 col0" >1.000000</td>
+      <td id="T_c7019_row0_col1" class="data row0 col1" >0.064626</td>
+      <td id="T_c7019_row0_col2" class="data row0 col2" >-0.109767</td>
+      <td id="T_c7019_row0_col3" class="data row0 col3" >0.057266</td>
+      <td id="T_c7019_row0_col4" class="data row0 col4" >0.010634</td>
+      <td id="T_c7019_row0_col5" class="data row0 col5" >0.006769</td>
+      <td id="T_c7019_row0_col6" class="data row0 col6" >0.085303</td>
+      <td id="T_c7019_row0_col7" class="data row0 col7" >-0.149815</td>
+      <td id="T_c7019_row0_col8" class="data row0 col8" >-0.054809</td>
+      <td id="T_c7019_row0_col9" class="data row0 col9" >0.033090</td>
+      <td id="T_c7019_row0_col10" class="data row0 col10" >-0.005170</td>
+      <td id="T_c7019_row0_col11" class="data row0 col11" >-0.143218</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row1" class="row_heading level0 row1" >danceability</th>
+      <td id="T_c7019_row1_col0" class="data row1 col0" >0.064626</td>
+      <td id="T_c7019_row1_col1" class="data row1 col1" >1.000000</td>
+      <td id="T_c7019_row1_col2" class="data row1 col2" >-0.086106</td>
+      <td id="T_c7019_row1_col3" class="data row1 col3" >0.025422</td>
+      <td id="T_c7019_row1_col4" class="data row1 col4" >-0.058946</td>
+      <td id="T_c7019_row1_col5" class="data row1 col5" >0.181375</td>
+      <td id="T_c7019_row1_col6" class="data row1 col6" >-0.024432</td>
+      <td id="T_c7019_row1_col7" class="data row1 col7" >-0.008501</td>
+      <td id="T_c7019_row1_col8" class="data row1 col8" >-0.123882</td>
+      <td id="T_c7019_row1_col9" class="data row1 col9" >0.330296</td>
+      <td id="T_c7019_row1_col10" class="data row1 col10" >-0.184358</td>
+      <td id="T_c7019_row1_col11" class="data row1 col11" >-0.096884</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row2" class="row_heading level0 row2" >energy</th>
+      <td id="T_c7019_row2_col0" class="data row2 col0" >-0.109767</td>
+      <td id="T_c7019_row2_col1" class="data row2 col1" >-0.086106</td>
+      <td id="T_c7019_row2_col2" class="data row2 col2" >1.000000</td>
+      <td id="T_c7019_row2_col3" class="data row2 col3" >0.676390</td>
+      <td id="T_c7019_row2_col4" class="data row2 col4" >-0.004626</td>
+      <td id="T_c7019_row2_col5" class="data row2 col5" >-0.031956</td>
+      <td id="T_c7019_row2_col6" class="data row2 col6" >-0.539907</td>
+      <td id="T_c7019_row2_col7" class="data row2 col7" >0.033299</td>
+      <td id="T_c7019_row2_col8" class="data row2 col8" >0.160991</td>
+      <td id="T_c7019_row2_col9" class="data row2 col9" >0.151181</td>
+      <td id="T_c7019_row2_col10" class="data row2 col10" >0.150593</td>
+      <td id="T_c7019_row2_col11" class="data row2 col11" >0.013581</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row3" class="row_heading level0 row3" >loudness</th>
+      <td id="T_c7019_row3_col0" class="data row3 col0" >0.057266</td>
+      <td id="T_c7019_row3_col1" class="data row3 col1" >0.025422</td>
+      <td id="T_c7019_row3_col2" class="data row3 col2" >0.676390</td>
+      <td id="T_c7019_row3_col3" class="data row3 col3" >1.000000</td>
+      <td id="T_c7019_row3_col4" class="data row3 col4" >-0.019077</td>
+      <td id="T_c7019_row3_col5" class="data row3 col5" >0.010634</td>
+      <td id="T_c7019_row3_col6" class="data row3 col6" >-0.361680</td>
+      <td id="T_c7019_row3_col7" class="data row3 col7" >-0.147941</td>
+      <td id="T_c7019_row3_col8" class="data row3 col8" >0.077364</td>
+      <td id="T_c7019_row3_col9" class="data row3 col9" >0.053350</td>
+      <td id="T_c7019_row3_col10" class="data row3 col10" >0.094122</td>
+      <td id="T_c7019_row3_col11" class="data row3 col11" >-0.114385</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row4" class="row_heading level0 row4" >mode</th>
+      <td id="T_c7019_row4_col0" class="data row4 col0" >0.010634</td>
+      <td id="T_c7019_row4_col1" class="data row4 col1" >-0.058946</td>
+      <td id="T_c7019_row4_col2" class="data row4 col2" >-0.004626</td>
+      <td id="T_c7019_row4_col3" class="data row4 col3" >-0.019077</td>
+      <td id="T_c7019_row4_col4" class="data row4 col4" >1.000000</td>
+      <td id="T_c7019_row4_col5" class="data row4 col5" >-0.063825</td>
+      <td id="T_c7019_row4_col6" class="data row4 col6" >0.009559</td>
+      <td id="T_c7019_row4_col7" class="data row4 col7" >-0.006554</td>
+      <td id="T_c7019_row4_col8" class="data row4 col8" >-0.005481</td>
+      <td id="T_c7019_row4_col9" class="data row4 col9" >0.002453</td>
+      <td id="T_c7019_row4_col10" class="data row4 col10" >0.014214</td>
+      <td id="T_c7019_row4_col11" class="data row4 col11" >0.015464</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row5" class="row_heading level0 row5" >speechiness</th>
+      <td id="T_c7019_row5_col0" class="data row5 col0" >0.006769</td>
+      <td id="T_c7019_row5_col1" class="data row5 col1" >0.181375</td>
+      <td id="T_c7019_row5_col2" class="data row5 col2" >-0.031956</td>
+      <td id="T_c7019_row5_col3" class="data row5 col3" >0.010634</td>
+      <td id="T_c7019_row5_col4" class="data row5 col4" >-0.063825</td>
+      <td id="T_c7019_row5_col5" class="data row5 col5" >1.000000</td>
+      <td id="T_c7019_row5_col6" class="data row5 col6" >0.025959</td>
+      <td id="T_c7019_row5_col7" class="data row5 col7" >-0.103350</td>
+      <td id="T_c7019_row5_col8" class="data row5 col8" >0.055524</td>
+      <td id="T_c7019_row5_col9" class="data row5 col9" >0.064226</td>
+      <td id="T_c7019_row5_col10" class="data row5 col10" >0.044402</td>
+      <td id="T_c7019_row5_col11" class="data row5 col11" >-0.088982</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row6" class="row_heading level0 row6" >acousticness</th>
+      <td id="T_c7019_row6_col0" class="data row6 col0" >0.085303</td>
+      <td id="T_c7019_row6_col1" class="data row6 col1" >-0.024432</td>
+      <td id="T_c7019_row6_col2" class="data row6 col2" >-0.539907</td>
+      <td id="T_c7019_row6_col3" class="data row6 col3" >-0.361680</td>
+      <td id="T_c7019_row6_col4" class="data row6 col4" >0.009559</td>
+      <td id="T_c7019_row6_col5" class="data row6 col5" >0.025959</td>
+      <td id="T_c7019_row6_col6" class="data row6 col6" >1.000000</td>
+      <td id="T_c7019_row6_col7" class="data row6 col7" >-0.006880</td>
+      <td id="T_c7019_row6_col8" class="data row6 col8" >-0.077248</td>
+      <td id="T_c7019_row6_col9" class="data row6 col9" >-0.016757</td>
+      <td id="T_c7019_row6_col10" class="data row6 col10" >-0.112733</td>
+      <td id="T_c7019_row6_col11" class="data row6 col11" >-0.081588</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row7" class="row_heading level0 row7" >instrumentalness</th>
+      <td id="T_c7019_row7_col0" class="data row7 col0" >-0.149815</td>
+      <td id="T_c7019_row7_col1" class="data row7 col1" >-0.008501</td>
+      <td id="T_c7019_row7_col2" class="data row7 col2" >0.033299</td>
+      <td id="T_c7019_row7_col3" class="data row7 col3" >-0.147941</td>
+      <td id="T_c7019_row7_col4" class="data row7 col4" >-0.006554</td>
+      <td id="T_c7019_row7_col5" class="data row7 col5" >-0.103350</td>
+      <td id="T_c7019_row7_col6" class="data row7 col6" >-0.006880</td>
+      <td id="T_c7019_row7_col7" class="data row7 col7" >1.000000</td>
+      <td id="T_c7019_row7_col8" class="data row7 col8" >-0.005472</td>
+      <td id="T_c7019_row7_col9" class="data row7 col9" >-0.175376</td>
+      <td id="T_c7019_row7_col10" class="data row7 col10" >0.023218</td>
+      <td id="T_c7019_row7_col11" class="data row7 col11" >0.063237</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row8" class="row_heading level0 row8" >liveness</th>
+      <td id="T_c7019_row8_col0" class="data row8 col0" >-0.054809</td>
+      <td id="T_c7019_row8_col1" class="data row8 col1" >-0.123882</td>
+      <td id="T_c7019_row8_col2" class="data row8 col2" >0.160991</td>
+      <td id="T_c7019_row8_col3" class="data row8 col3" >0.077364</td>
+      <td id="T_c7019_row8_col4" class="data row8 col4" >-0.005481</td>
+      <td id="T_c7019_row8_col5" class="data row8 col5" >0.055524</td>
+      <td id="T_c7019_row8_col6" class="data row8 col6" >-0.077248</td>
+      <td id="T_c7019_row8_col7" class="data row8 col7" >-0.005472</td>
+      <td id="T_c7019_row8_col8" class="data row8 col8" >1.000000</td>
+      <td id="T_c7019_row8_col9" class="data row8 col9" >-0.020573</td>
+      <td id="T_c7019_row8_col10" class="data row8 col10" >0.021201</td>
+      <td id="T_c7019_row8_col11" class="data row8 col11" >0.006517</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row9" class="row_heading level0 row9" >valence</th>
+      <td id="T_c7019_row9_col0" class="data row9 col0" >0.033090</td>
+      <td id="T_c7019_row9_col1" class="data row9 col1" >0.330296</td>
+      <td id="T_c7019_row9_col2" class="data row9 col2" >0.151181</td>
+      <td id="T_c7019_row9_col3" class="data row9 col3" >0.053350</td>
+      <td id="T_c7019_row9_col4" class="data row9 col4" >0.002453</td>
+      <td id="T_c7019_row9_col5" class="data row9 col5" >0.064226</td>
+      <td id="T_c7019_row9_col6" class="data row9 col6" >-0.016757</td>
+      <td id="T_c7019_row9_col7" class="data row9 col7" >-0.175376</td>
+      <td id="T_c7019_row9_col8" class="data row9 col8" >-0.020573</td>
+      <td id="T_c7019_row9_col9" class="data row9 col9" >1.000000</td>
+      <td id="T_c7019_row9_col10" class="data row9 col10" >-0.025998</td>
+      <td id="T_c7019_row9_col11" class="data row9 col11" >-0.032084</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row10" class="row_heading level0 row10" >tempo</th>
+      <td id="T_c7019_row10_col0" class="data row10 col0" >-0.005170</td>
+      <td id="T_c7019_row10_col1" class="data row10 col1" >-0.184358</td>
+      <td id="T_c7019_row10_col2" class="data row10 col2" >0.150593</td>
+      <td id="T_c7019_row10_col3" class="data row10 col3" >0.094122</td>
+      <td id="T_c7019_row10_col4" class="data row10 col4" >0.014214</td>
+      <td id="T_c7019_row10_col5" class="data row10 col5" >0.044402</td>
+      <td id="T_c7019_row10_col6" class="data row10 col6" >-0.112733</td>
+      <td id="T_c7019_row10_col7" class="data row10 col7" >0.023218</td>
+      <td id="T_c7019_row10_col8" class="data row10 col8" >0.021201</td>
+      <td id="T_c7019_row10_col9" class="data row10 col9" >-0.025998</td>
+      <td id="T_c7019_row10_col10" class="data row10 col10" >1.000000</td>
+      <td id="T_c7019_row10_col11" class="data row10 col11" >-0.001793</td>
+    </tr>
+    <tr>
+      <th id="T_c7019_level0_row11" class="row_heading level0 row11" >duration_ms</th>
+      <td id="T_c7019_row11_col0" class="data row11 col0" >-0.143218</td>
+      <td id="T_c7019_row11_col1" class="data row11 col1" >-0.096884</td>
+      <td id="T_c7019_row11_col2" class="data row11 col2" >0.013581</td>
+      <td id="T_c7019_row11_col3" class="data row11 col3" >-0.114385</td>
+      <td id="T_c7019_row11_col4" class="data row11 col4" >0.015464</td>
+      <td id="T_c7019_row11_col5" class="data row11 col5" >-0.088982</td>
+      <td id="T_c7019_row11_col6" class="data row11 col6" >-0.081588</td>
+      <td id="T_c7019_row11_col7" class="data row11 col7" >0.063237</td>
+      <td id="T_c7019_row11_col8" class="data row11 col8" >0.006517</td>
+      <td id="T_c7019_row11_col9" class="data row11 col9" >-0.032084</td>
+      <td id="T_c7019_row11_col10" class="data row11 col10" >-0.001793</td>
+      <td id="T_c7019_row11_col11" class="data row11 col11" >1.000000</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</div>
+<section id="2-load-data" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;1b7c67ff-2b80-4371-9ba4-b802a8660daf&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h2>2. Load Data</h2>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;0e0dcd63-bcde-40b8-a6a3-0d07ecbfbffb&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Doc: <a href="http://spark.apache.org/docs/latest/ml-datasource.html"
+class="uri">http://spark.apache.org/docs/latest/ml-datasource.html</a></p>
+<p>Download data from <a
+href="https://github.com/apache/spark/blob/master/data/mllib/sample_libsvm_data.txt"
+class="uri">https://github.com/apache/spark/blob/master/data/mllib/sample_libsvm_data.txt</a>
+and load as DataFrame.</p>
+</div>
+<div class="cell code" data-execution_count="20"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:29:49.044063Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:29:47.110301Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;469e0b7c-633f-4e71-ab85-cc5d2a077f74&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="bu">file</span> <span class="op">=</span> <span class="st">&quot;sample_libsvm_data.txt&quot;</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> spark.read.<span class="bu">format</span>(<span class="st">&quot;libsvm&quot;</span>).option(<span class="st">&quot;numFeatures&quot;</span>, <span class="st">&quot;780&quot;</span>).load(<span class="bu">file</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>df.show(<span class="dv">10</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>df.take(<span class="dv">1</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+-----+--------------------+
+|label|            features|
++-----+--------------------+
+|  0.0|(780,[127,128,129...|
+|  1.0|(780,[158,159,160...|
+|  1.0|(780,[124,125,126...|
+|  1.0|(780,[152,153,154...|
+|  1.0|(780,[151,152,153...|
+|  0.0|(780,[129,130,131...|
+|  1.0|(780,[158,159,160...|
+|  1.0|(780,[99,100,101,...|
+|  0.0|(780,[154,155,156...|
+|  0.0|(780,[127,128,129...|
++-----+--------------------+
+only showing top 10 rows
+
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>[Row(label=0.0, features=SparseVector(780, {127: 51.0, 128: 159.0, 129: 253.0, 130: 159.0, 131: 50.0, 154: 48.0, 155: 238.0, 156: 252.0, 157: 252.0, 158: 252.0, 159: 237.0, 181: 54.0, 182: 227.0, 183: 253.0, 184: 252.0, 185: 239.0, 186: 233.0, 187: 252.0, 188: 57.0, 189: 6.0, 207: 10.0, 208: 60.0, 209: 224.0, 210: 252.0, 211: 253.0, 212: 252.0, 213: 202.0, 214: 84.0, 215: 252.0, 216: 253.0, 217: 122.0, 235: 163.0, 236: 252.0, 237: 252.0, 238: 252.0, 239: 253.0, 240: 252.0, 241: 252.0, 242: 96.0, 243: 189.0, 244: 253.0, 245: 167.0, 262: 51.0, 263: 238.0, 264: 253.0, 265: 253.0, 266: 190.0, 267: 114.0, 268: 253.0, 269: 228.0, 270: 47.0, 271: 79.0, 272: 255.0, 273: 168.0, 289: 48.0, 290: 238.0, 291: 252.0, 292: 252.0, 293: 179.0, 294: 12.0, 295: 75.0, 296: 121.0, 297: 21.0, 300: 253.0, 301: 243.0, 302: 50.0, 316: 38.0, 317: 165.0, 318: 253.0, 319: 233.0, 320: 208.0, 321: 84.0, 328: 253.0, 329: 252.0, 330: 165.0, 343: 7.0, 344: 178.0, 345: 252.0, 346: 240.0, 347: 71.0, 348: 19.0, 349: 28.0, 356: 253.0, 357: 252.0, 358: 195.0, 371: 57.0, 372: 252.0, 373: 252.0, 374: 63.0, 384: 253.0, 385: 252.0, 386: 195.0, 399: 198.0, 400: 253.0, 401: 190.0, 412: 255.0, 413: 253.0, 414: 196.0, 426: 76.0, 427: 246.0, 428: 252.0, 429: 112.0, 440: 253.0, 441: 252.0, 442: 148.0, 454: 85.0, 455: 252.0, 456: 230.0, 457: 25.0, 466: 7.0, 467: 135.0, 468: 253.0, 469: 186.0, 470: 12.0, 482: 85.0, 483: 252.0, 484: 223.0, 493: 7.0, 494: 131.0, 495: 252.0, 496: 225.0, 497: 71.0, 510: 85.0, 511: 252.0, 512: 145.0, 520: 48.0, 521: 165.0, 522: 252.0, 523: 173.0, 538: 86.0, 539: 253.0, 540: 225.0, 547: 114.0, 548: 238.0, 549: 253.0, 550: 162.0, 566: 85.0, 567: 252.0, 568: 249.0, 569: 146.0, 570: 48.0, 571: 29.0, 572: 85.0, 573: 178.0, 574: 225.0, 575: 253.0, 576: 223.0, 577: 167.0, 578: 56.0, 594: 85.0, 595: 252.0, 596: 252.0, 597: 252.0, 598: 229.0, 599: 215.0, 600: 252.0, 601: 252.0, 602: 252.0, 603: 196.0, 604: 130.0, 622: 28.0, 623: 199.0, 624: 252.0, 625: 252.0, 626: 253.0, 627: 252.0, 628: 252.0, 629: 233.0, 630: 145.0, 651: 25.0, 652: 128.0, 653: 252.0, 654: 253.0, 655: 252.0, 656: 141.0, 657: 37.0}))]</code></pre>
+</div>
+</div>
+<section id="exercise-2a" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;5310688b-300c-4090-86b0-95301679c185&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h3>Exercise 2.A</h3>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;914dc6e6-8576-4c9e-b7dc-328c66678182&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Load vehicle data from <a
+href="https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/vehicle.scale"
+class="uri">https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/vehicle.scale</a>
+Dataset description: <a
+href="http://archive.ics.uci.edu/ml/datasets/Vehicle"
+class="uri">http://archive.ics.uci.edu/ml/datasets/Vehicle</a></p>
+</div>
+<div class="cell code" data-execution_count="25"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:29:54.515641Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:29:54.510572Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;409a6780-e70c-4aa6-a7f2-dd95338fdcd9&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="bu">file</span> <span class="op">=</span> <span class="st">&quot;vehicle.scale&quot;</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>file_type <span class="op">=</span> <span class="st">&quot;libsvm&quot;</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>infer_schema <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>first_row_is_header <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>delimiter <span class="op">=</span> <span class="st">&quot;,&quot;</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>df_vehicle <span class="op">=</span> spark.read.<span class="bu">format</span>(file_type) <span class="op">\</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;inferSchema&quot;</span>, infer_schema) <span class="op">\</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;header&quot;</span>, first_row_is_header) <span class="op">\</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;sep&quot;</span>, delimiter) <span class="op">\</span></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>  .load(<span class="bu">file</span>)</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>df_vehicle.show(<span class="dv">3</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+-----+--------------------+
+|label|            features|
++-----+--------------------+
+|  4.0|(18,[0,1,2,3,4,5,...|
+|  4.0|(18,[0,1,2,3,4,5,...|
+|  2.0|(18,[0,1,2,3,4,5,...|
++-----+--------------------+
+only showing top 3 rows
+
+</code></pre>
+</div>
+</div>
+<section id="3-classification-2p" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;e09fa988-b3db-4991-bdc8-87e4451e009d&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h2>3. Classification (2.p)</h2>
+</section>
+<section id="exercise-3a" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;51484706-eab6-47e9-aec3-a42306705f87&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h3>Exercise 3.A</h3>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;dd6e18df-7189-470d-aee2-2d9b550894ce&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Download Credit Card Fraud Detection Dataset 2023 from <a
+href="https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023"
+class="uri">https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023</a>
+and make classification of potentially fraudulent transactions:</p>
+<ul>
+<li><p>Create pipeline with VectorAssembler and
+RandomForestClassifier.</p></li>
+<li><p>Use the pipeline to make predictions.</p></li>
+<li><p>Evaluate predictions using
+MulticlassClassificationEvaluator.</p></li>
+<li><p>Calculate accuracy and test error</p></li>
+<li><p>Print the structure of the trained decision tree (hint: use
+toDebugString attribute)</p></li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="29"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:30:01.757494Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:30:01.748158Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;441007e5-376f-4b52-9193-d16cb56c2bcf&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>file_location <span class="op">=</span> <span class="st">&quot;creditcard_2023.csv&quot;</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>file_type <span class="op">=</span> <span class="st">&quot;csv&quot;</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># CSV options</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>infer_schema <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>first_row_is_header <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>delimiter <span class="op">=</span> <span class="st">&quot;,&quot;</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="co"># The applied options are for CSV files. For other file types, these will be ignored.</span></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>df_credit <span class="op">=</span> spark.read.<span class="bu">format</span>(file_type) <span class="op">\</span></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;inferSchema&quot;</span>, infer_schema) <span class="op">\</span></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;header&quot;</span>, first_row_is_header) <span class="op">\</span></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;sep&quot;</span>, delimiter) <span class="op">\</span></span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>  .load(file_location)</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>df_credit.toPandas().head(<span class="dv">2</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>V1</th>
+      <th>V2</th>
+      <th>V3</th>
+      <th>V4</th>
+      <th>V5</th>
+      <th>V6</th>
+      <th>V7</th>
+      <th>V8</th>
+      <th>V9</th>
+      <th>...</th>
+      <th>V21</th>
+      <th>V22</th>
+      <th>V23</th>
+      <th>V24</th>
+      <th>V25</th>
+      <th>V26</th>
+      <th>V27</th>
+      <th>V28</th>
+      <th>Amount</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>-0.260648</td>
+      <td>-0.469648</td>
+      <td>2.496266</td>
+      <td>-0.083724</td>
+      <td>0.129681</td>
+      <td>0.732898</td>
+      <td>0.519014</td>
+      <td>-0.130006</td>
+      <td>0.727159</td>
+      <td>...</td>
+      <td>-0.110552</td>
+      <td>0.217606</td>
+      <td>-0.134794</td>
+      <td>0.165959</td>
+      <td>0.12628</td>
+      <td>-0.434824</td>
+      <td>-0.081230</td>
+      <td>-0.151045</td>
+      <td>17982.10</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>0.985100</td>
+      <td>-0.356045</td>
+      <td>0.558056</td>
+      <td>-0.429654</td>
+      <td>0.277140</td>
+      <td>0.428605</td>
+      <td>0.406466</td>
+      <td>-0.133118</td>
+      <td>0.347452</td>
+      <td>...</td>
+      <td>-0.194936</td>
+      <td>-0.605761</td>
+      <td>0.079469</td>
+      <td>-0.577395</td>
+      <td>0.19009</td>
+      <td>0.296503</td>
+      <td>-0.248052</td>
+      <td>-0.064512</td>
+      <td>6531.37</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>2 rows × 31 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>train_df, test_df <span class="op">=</span> df_credit.randomSplit([<span class="fl">0.8</span>, <span class="fl">0.2</span>], seed<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml <span class="im">import</span> Pipeline</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.classification <span class="im">import</span> DecisionTreeClassifier, RandomForestClassifier</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.evaluation <span class="im">import</span> MulticlassClassificationEvaluator</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rf_classificataion(train_df, test_df ):</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>    num_classes <span class="op">=</span> train_df.select(<span class="st">&quot;Class&quot;</span>).distinct().count()</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>    num_col <span class="op">=</span> train_df.columns[<span class="dv">1</span>:]</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>    vector_col <span class="op">=</span> <span class="st">&#39;features&#39;</span></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    assembler <span class="op">=</span> VectorAssembler(inputCols<span class="op">=</span>train_df.columns, outputCol<span class="op">=</span>vector_col)</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>    random_forest <span class="op">=</span> RandomForestClassifier(labelCol<span class="op">=</span><span class="st">&#39;Class&#39;</span>, featuresCol<span class="op">=</span>vector_col)</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>    pipeline <span class="op">=</span> Pipeline(stages<span class="op">=</span>[assembler, random_forest]) </span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> pipeline.fit(train_df)</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span>  model.transform(test_df)</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>    evaluator <span class="op">=</span> MulticlassClassificationEvaluator(</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>        labelCol<span class="op">=</span><span class="st">&quot;Class&quot;</span>, </span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>        predictionCol<span class="op">=</span><span class="st">&quot;prediction&quot;</span>, </span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>        metricName<span class="op">=</span><span class="st">&quot;accuracy&quot;</span></span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>    accuracy <span class="op">=</span> evaluator.evaluate(predictions) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model, accuracy</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="46">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>model, accuracy <span class="op">=</span> rf_classificataion(train_df, test_df)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>rf_model <span class="op">=</span> model.stages[<span class="dv">1</span>]</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co"># print(rf_model.toDebugString)</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(accuracy)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>99.99911844564335
+</code></pre>
+</div>
+</div>
+<section id="exercise-3b" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;75141aa2-aebd-445e-8ad9-609d50da8207&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h3>Exercise 3.B</h3>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;cdec14ce-1d57-426b-ab1c-33df69feff7f&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<ul>
+<li>Switch classifier to DecisionTreeClassifier</li>
+<li>Extend the pipeline from the previous task with
+QuantileDiscretizer</li>
+<li>Try using a couple of different numbers of buckets, which
+configuration gives the best results? Are there any differences between
+results?</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="50"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:30:05.397499Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:30:05.390309Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;aed2af3f-d5c7-4c37-9397-3c41704beb2e&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> dt_classifier(df_train, df_test, buckets_num):</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>    num_classes <span class="op">=</span> df_train.select(<span class="st">&#39;Class&#39;</span>).distinct().count()</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    num_col <span class="op">=</span> df_train.columns[<span class="dv">1</span>:]</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    vector_col <span class="op">=</span> <span class="st">&#39;features&#39;</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    assembler <span class="op">=</span> VectorAssembler(inputCols<span class="op">=</span>df_train.columns, outputCol<span class="op">=</span>vector_col) </span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    decision_tree <span class="op">=</span> DecisionTreeClassifier(labelCol<span class="op">=</span><span class="st">&#39;Class&#39;</span>, featuresCol<span class="op">=</span>vector_col)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>    discretized_cols <span class="op">=</span> [<span class="ss">f&quot;</span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">_disc&quot;</span> <span class="cf">for</span> col <span class="kw">in</span> train_df.columns[<span class="dv">1</span>:]]</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>    discretizer <span class="op">=</span> QuantileDiscretizer(inputCols<span class="op">=</span>num_col, outputCols<span class="op">=</span>discretized_cols, numBuckets<span class="op">=</span>buckets_num)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>    pipeline <span class="op">=</span> Pipeline(stages <span class="op">=</span> [discretizer, assembler, decision_tree])</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> pipeline.fit(df_train)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> model.transform(df_test)</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>    evaluator <span class="op">=</span> MulticlassClassificationEvaluator(</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>        labelCol<span class="op">=</span><span class="st">&quot;Class&quot;</span>, </span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>        predictionCol<span class="op">=</span><span class="st">&quot;prediction&quot;</span>, </span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>        metricName<span class="op">=</span><span class="st">&quot;accuracy&quot;</span></span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a>    accuracy <span class="op">=</span> evaluator.evaluate(predictions) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model, accuracy</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="51">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num_bins <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">6</span>):</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    model_dt, accuracy_dt <span class="op">=</span> dt_classifier(train_df, test_df, num_bins)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    rf_model <span class="op">=</span> model.stages[<span class="dv">1</span>]</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># print(rf_model.toDebugString)</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Bucket </span><span class="sc">{</span>num_bins<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(accuracy_dt)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Bucket 2
+100.0
+Bucket 3
+100.0
+Bucket 4
+100.0
+Bucket 5
+100.0
+</code></pre>
+</div>
+</div>
+<section id="4-text-classification-2p" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;dd131a62-761d-423c-b19a-c7c2fd94d48f&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<h2>4. Text classification (2p.)</h2>
+</section>
+<div class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;e016e8e3-89df-4638-91c7-60189731874a&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<p>Build a pipeline consisting of Tokenizer, HashingTF, IDF and
+StringIndexer and LogisticRegression, fit it to training data: <a
+href="https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection"
+class="uri">https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection</a></p>
+</div>
+<div class="cell code" data-execution_count="55"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-11-17T00:30:07.192590Z&quot;,&quot;start_time&quot;:&quot;2023-11-17T00:30:07.171394Z&quot;}"
+data-application/vnd.databricks.v1+cell="{&quot;cellMetadata&quot;:{&quot;byteLimit&quot;:2048000,&quot;rowLimit&quot;:10000},&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;f78d672c-7d58-48b3-beaf-f80f2f3b258e&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+data-collapsed="false"
+data-jupyter="{&quot;outputs_hidden&quot;:false}">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.classification <span class="im">import</span> LogisticRegression</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>file_location <span class="op">=</span> <span class="st">&quot;dataset.csv&quot;</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>file_type <span class="op">=</span> <span class="st">&quot;csv&quot;</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="co"># CSV options</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>infer_schema <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>first_row_is_header <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>delimiter <span class="op">=</span> <span class="st">&quot;,&quot;</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a><span class="co"># The applied options are for CSV files. For other file types, these will be ignored.</span></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>df_humor <span class="op">=</span> spark.read.<span class="bu">format</span>(file_type) <span class="op">\</span></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;inferSchema&quot;</span>, infer_schema) <span class="op">\</span></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;header&quot;</span>, first_row_is_header) <span class="op">\</span></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>  .option(<span class="st">&quot;sep&quot;</span>, delimiter) <span class="op">\</span></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>  .load(file_location)</span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a>df_humor.toPandas().head(<span class="dv">2</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="53">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>text</th>
+      <th>humor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Joe biden rules out 2020 bid: 'guys, i'm not r...</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Watch: darvish gave hitter whiplash with slow ...</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="54">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>train_df, test_df <span class="op">=</span> df_humor.randomSplit([<span class="fl">0.8</span>, <span class="fl">0.2</span>], seed<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="78">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>train_df <span class="op">=</span> train_df.withColumn(<span class="st">&#39;label&#39;</span>, F.when(F.col(<span class="st">&#39;humor&#39;</span>), <span class="dv">1</span>).otherwise(<span class="dv">0</span>))</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>train_df <span class="op">=</span> train_df.drop(<span class="st">&#39;humor&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="80">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>test_df <span class="op">=</span> test_df.withColumn(<span class="st">&#39;label&#39;</span>, F.when(F.col(<span class="st">&#39;humor&#39;</span>), <span class="dv">1</span>).otherwise(<span class="dv">0</span>))</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>test_df <span class="op">=</span> test_df.drop(<span class="st">&#39;humor&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="85">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.feature <span class="im">import</span> HashingTF, IDF, StringIndexer, Tokenizer</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> lr_classifier(train_df, test_df):</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    tokenizer <span class="op">=</span> Tokenizer(</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    inputCol<span class="op">=</span><span class="st">&quot;text&quot;</span>, </span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    outputCol<span class="op">=</span><span class="st">&quot;tokens&quot;</span>)</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    hashing <span class="op">=</span> HashingTF(</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>    inputCol<span class="op">=</span><span class="st">&quot;tokens&quot;</span>, </span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>    outputCol<span class="op">=</span><span class="st">&quot;features&quot;</span>, </span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>    numFeatures<span class="op">=</span><span class="dv">50</span>)</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>    idf <span class="op">=</span> IDF(</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>    inputCol<span class="op">=</span><span class="st">&quot;features&quot;</span>, </span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>    outputCol<span class="op">=</span><span class="st">&quot;final_features&quot;</span>)</span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>    str_index <span class="op">=</span> StringIndexer(</span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a>    inputCol<span class="op">=</span><span class="st">&quot;label&quot;</span>, </span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a>    outputCol<span class="op">=</span><span class="st">&quot;final_label&quot;</span>,</span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a>    handleInvalid<span class="op">=</span><span class="st">&quot;skip&quot;</span>)</span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>    lr_classifier <span class="op">=</span> LogisticRegression(</span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a>    featuresCol<span class="op">=</span><span class="st">&quot;final_features&quot;</span>, </span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a>    labelCol<span class="op">=</span><span class="st">&quot;final_label&quot;</span>, </span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a>    predictionCol<span class="op">=</span><span class="st">&quot;prediction&quot;</span></span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a>    pipeline <span class="op">=</span> Pipeline(stages<span class="op">=</span>[tokenizer, hashing, idf, str_index, lr_classifier])</span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-31"><a href="#cb33-31" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> pipeline.fit(train_df)</span>
+<span id="cb33-32"><a href="#cb33-32" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> model.transform(test_df)</span>
+<span id="cb33-33"><a href="#cb33-33" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-34"><a href="#cb33-34" aria-hidden="true" tabindex="-1"></a>    evaluator <span class="op">=</span> MulticlassClassificationEvaluator(</span>
+<span id="cb33-35"><a href="#cb33-35" aria-hidden="true" tabindex="-1"></a>        labelCol<span class="op">=</span><span class="st">&quot;final_label&quot;</span>, </span>
+<span id="cb33-36"><a href="#cb33-36" aria-hidden="true" tabindex="-1"></a>        predictionCol<span class="op">=</span><span class="st">&quot;prediction&quot;</span>, </span>
+<span id="cb33-37"><a href="#cb33-37" aria-hidden="true" tabindex="-1"></a>        metricName<span class="op">=</span><span class="st">&quot;accuracy&quot;</span></span>
+<span id="cb33-38"><a href="#cb33-38" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb33-39"><a href="#cb33-39" aria-hidden="true" tabindex="-1"></a>    accuracy <span class="op">=</span> evaluator.evaluate(predictions) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb33-40"><a href="#cb33-40" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-41"><a href="#cb33-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model, accuracy</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="86">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>model, accuracy <span class="op">=</span> lr_classifier(train_df, test_df)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>rf_model <span class="op">=</span> model.stages[<span class="dv">1</span>]</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="co"># print(rf_model.toDebugString)</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(accuracy)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>76.48089291523812
+</code></pre>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
